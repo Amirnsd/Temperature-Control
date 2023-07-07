@@ -1,0 +1,68 @@
+.App{
+  width: 100%;
+  height: 100%;
+  
+}
+
+
+.cotroller{
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 100px;
+  background-color: #505050;
+  border-radius: 10px;
+  
+  
+}
+
+
+.number {
+
+  width: 100px;
+  height: 100px;
+  border-radius:100px;
+  padding: 40px;
+  margin-top: -40px;
+  margin-bottom: 70px;
+  background-color: #1C1C1C;
+  color: #fff;
+  border: 1px solid whitesmoke ;
+
+}   
+
+.number h1 {
+
+  margin: 1.8rem 1.2rem;
+
+}
+
+
+
+
+.cotroller .buttons{
+
+  display: flex;
+  justify-content: space-around;
+ 
+  
+}
+
+.buttons button {
+  width: 70px;
+  height: 70px;
+  border-radius:70px;
+  font-weight: 500;
+  font-size: 40px;
+  background-color:   #FF9500;
+  border: 1px solid whitesmoke ;
+}
+
+
+button:hover{
+  background: rgb(184, 184, 184);
+  cursor: pointer;
+}
+
